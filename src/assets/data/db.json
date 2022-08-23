@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Casual Shirt",
+      "categoryId": 2,
+      "description": "Men Slim Fit Solid Spread Collar Casual Shirt",
+      "price": 500,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/wBmwsTkR/shirt1.jpg",
+      "rating": "4.4",
+      "review": "300",
+      "vendor_name": "Kalyan",
+      "warrenty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Casual Shirt",
+      "categoryId": 2,
+      "description": "Men Slim Fit Solid Spread Collar Casual Shirt",
+      "price": "300",
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/SKSKnJ4D/shirt2.webp",
+      "rating": "5",
+      "review": "300",
+      "vendor_name": "Kalyan",
+      "warrenty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Phone",
+      "categoryId": 1,
+      "description": "Men Slim Fit Solid Spread Collar Casual Shirt",
+      "price": 500,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/66y0JW8v/1619359732056-1.jpg",
+      "rating": "4.4",
+      "review": "300",
+      "vendor_name": "Kalyan",
+      "warranty": 1
+    },
+    {
+      "id": 6,
+      "productName": "Kid Shirt",
+      "categoryId": 3,
+      "description": "Men Slim Fit Solid Spread Collar Casual Shirt",
+      "price": 500,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/vHj6n8jy/shirt1.jpg",
+      "rating": "4.4",
+      "review": "300",
+      "vendor_name": "Kalyan",
+      "warranty": 1
+    }
+  ]
+}

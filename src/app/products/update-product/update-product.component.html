@@ -1,0 +1,54 @@
+<h2 class="text-center">Update Product Details</h2>
+<form class="row g-3" (ngSubmit)="updateProduct(updateProductForm)" #updateProductForm="ngForm">
+    <div class="col-md-6">
+        <label for="id" class="form-label">id</label>
+        <input type="text" name="id" [(ngModel)]="productDetails.id" class="from-control" id="id">
+    </div>
+    <div class="col-md-6">
+        <label for="productName" class="form-label">productName</label>
+        <input type="text" name="productName" [(ngModel)]="productDetails.productName" class="from-control"
+            id="productName">
+    </div>
+    <div class="col-md-6">
+        <label for="categoryId" class="form-label">categoryId</label>
+        <input type="text" name="categoryId" [(ngModel)]="productDetails.categoryId" class="from-control"
+            id="categoryId">
+    </div>
+    <div class="col-md-6">
+        <label for="description" class="form-label">description</label>
+        <input type="text" name="description" [(ngModel)]="productDetails.description" class="from-control"
+            id="description">
+    </div>
+    <div class="col-md-6">
+        <label for="price" class="form-label">price</label>
+        <input type="text" name="price" [(ngModel)]="productDetails.price" class="from-control" id="price">
+    </div>
+    <div class="col-md-6">
+        <label for="is_available" class="form-label">is_available</label>
+        <input type="text" name="is_available" [(ngModel)]="productDetails.is_available" class="from-control"
+            id="is_available">
+    </div>
+    <div class="col-md-6">
+        <label for="productImg" class="form-label">productImg</label>
+        <input type="text" name="productImg" [(ngModel)]="productDetails.productImg" class="from-control"
+            id="productImg">
+    </div>
+    <div class="col-md-6">
+        <label for="rating" class="form-label">rating</label>
+        <input type="text" name="rating" [(ngModel)]="productDetails.rating" class="from-control" id="rating">
+    </div>
+    <div class="col-md-6">
+        <label for="review" class="form-label">review</label>
+        <input type="text" name="review" [(ngModel)]="productDetails.review" class="from-control" id="review">
+    </div>
+    <div class="col-md-6">
+        <label for="vendor_name" class="form-label">vendor_name</label>
+        <input type="text" name="vendor_name" [(ngModel)]="productDetails.vendor_name" class="from-control"
+            id="vendor_name">
+    </div>
+    <div class="col-md-6">
+        <label for="warrenty" class="form-label">warrenty</label>
+        <input type="text" name="warrenty" [(ngModel)]="productDetails.warrenty" class="from-control" id="warrenty">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
